@@ -53,7 +53,6 @@ public class MontyHallGame {
 
             // Стратегия без переключения
             boolean winWithoutSwitchResult = game.playGame(false);
-            // Для упрощения логики игра без переключения не записывается в resultMap
             if (winWithoutSwitchResult) {
                 winWithoutSwitch++;
             }
